@@ -33,9 +33,9 @@ const TransferModal = props => {
         accountPair={accountPair} label='确认转让' type='SIGNED-TX' setStatus={setStatus}
         onClick={confirmAndClose}
         attrs={{
-          palletRpc: 'kittiesModule',
+          palletRpc: 'kittyModule',
           callable: 'transfer',
-          inputParams: [formValue.target, kitty.id],
+          inputParams: [kitty.id, formValue.target],
           paramFields: [true, true]
         }}
       />
