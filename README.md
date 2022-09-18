@@ -1,3 +1,7 @@
+# pallet kitty 第三课作业--rust代码的单元测试和小毛孩的UI
+## gif截图如下：
+![操作录制gif](screenshots.gif "创建和转让小毛孩")
+
 # Substrate Front End Template
 
 This template allows you to create a front-end application that connects to a
