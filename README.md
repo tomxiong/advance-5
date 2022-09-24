@@ -1,3 +1,8 @@
+# 第四课作业 -- 使用 js sdk 从浏览器 frontend 获取到前面写入 Offchain Storage 的数据
+使用 js sdk 从浏览器 frontend 获取到前面写入 Offchain Storage 的数据、
+在pallet-template 中增加storeToOffchainStorage的extrinsic，使用offchain worker读出后调用do_something提交交易至链上，重用template的界面显示数据
+![lession-4](lession-4.png "offchain lession") 
+
 # pallet kitty 第三课作业--小毛孩的UI
 ## gif截图如下：
 ![操作录制gif](screenshots.gif "创建和转让小毛孩")
